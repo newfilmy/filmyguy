@@ -136,3 +136,9 @@ as.innerHTML = con;
         cardMain.classList.toggle("open");
       });
     });
+
+
+function sayHello(){
+  alert(`Welcome To My Site.. it's ASIF`)
+};
+sayHello()
