@@ -1450,7 +1450,92 @@ const movieDatabase = [
     ],
 
     "html": ``
-  }
+  },
+
+    // CloudMovieZ
+    {
+    "siteName": "CloudMovieZ",
+    "category": "Movie & Series",
+
+    "siteFeatures": [
+        "Hollywood Movies",
+        "Bangla Movies",
+        "South Indian Movies",
+        "Animation Movies",
+        "Marvel",
+        "BluRay REMUX",
+        "4K / 2160p",
+        "Multi Audio Movies",
+        "K-Drama / Movies",
+        "TV Shows",
+        "Web Series",
+        "Hindi Dubbed",
+        "Dual Audio",
+        "WEB-DL",
+        "BluRay",
+        "HEVC (x265)",
+        "HDR",
+        "Dolby Vision",
+        "480p",
+        "720p",
+        "1080p",
+        "2160p (4K)"
+    ],
+
+    "more": [
+        "Movie download platform featuring movies and TV content.",
+        "Includes Hollywood, Bollywood, Bangla, South Indian and Animation movies.",
+        "Features dedicated Marvel and 4K / 2160p sections.",
+        "Offers BluRay REMUX and high-quality WEB-DL releases.",
+        "Includes Multi Audio and Hindi Dubbed movies.",
+        "Features K-Drama, Movies, TV Shows and Web Series.",
+        "Supports multiple video qualities including 480p, 720p, 1080p and 2160p.",
+        "CloudMovieZ states that it collects links from third-party hosting services rather than hosting files directly.",
+    ],
+
+    "url": "https://cloudmoviez.top/",
+
+    "tags": [
+        "cloudmoviez",
+        "cmzflix",
+        "movies",
+        "hollywood",
+        "bangla movies",
+        "south indian movies",
+        "animation",
+        "marvel",
+        "bluray",
+        "remux",
+        "4k",
+        "2160p",
+        "multi audio",
+        "dual audio",
+        "hindi dubbed",
+        "k-drama",
+        "tv shows",
+        "web series",
+        "web-dl",
+        "hevc",
+        "x265",
+        "hdr",
+        "dolby vision"
+    ],
+
+    "html": `
+        <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
+            <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">🎬 CloudMovieZ</h3>
+
+            <p style="margin:0 0 12px;">
+                <strong>CloudMovieZ</strong> is a movie and TV content platform
+                featuring Hollywood, Bangla, South Indian and Animation movies,
+                along with Marvel titles, K-Dramas, TV Shows and Web Series.
+                The site focuses on high-quality releases including 4K/2160p,
+                BluRay REMUX, WEB-DL, Multi Audio, Dual Audio and Hindi Dubbed
+                content.
+            </p>
+        </div>
+    `
+}
 
 
 ];
