@@ -1,19 +1,20 @@
 
-/*{
-    "siteName": "",
-    "category": "", //"Movie & Series", "Other", "Apps"
-    "siteFeatures": [''],
-    "more": [],
-    "url": "",
-    "tags": [""],
-    "html": ""
-}*/
+// /*{
+//     "siteName": "",
+//     "category": "", //"Movie & Series", "Other", "Apps"
+//     "siteFeatures": [''],
+//     "more": [],
+//     "url": "",
+//     "tags": [""],
+//     "html": ""
+// }*/
+
 const movieDatabase = [
   //HDHUB4U
   {
-    "siteName": "HDHUB4U",
-    "category": "Movie & Series",
-    "siteFeatures": [
+    siteName: "HDHUB4U",
+    category: "Movie & Series",
+    siteFeatures: [
       "BollyWood",
       "HollyWood",
       "Hindi Dubbed",
@@ -30,23 +31,56 @@ const movieDatabase = [
       "Punjabi",
       "Marathi",
       "Indonesian",
-      "Movie Series Collection"
+      "Movie Series Collection",
     ],
 
-    "more": ["One Ad Per Page", "Easy to Download <sub>Hubcloud Links</sub>", "<b>Quality:</b> 480p, 720p, 1080p 10bit, HQ 1080p, 4K 2160p", "Latest Update Everyday", "You can join their TG Channel For Updates"],
-    "url": "https://hdhub4u.tv/",
+    more: [
+      "One Ad Per Page",
+      "Easy to Download <sub>Hubcloud Links</sub>",
+      "<b>Quality:</b> 480p, 720p, 1080p 10bit, HQ 1080p, 4K 2160p",
+      "Latest Update Everyday",
+      "You can join their TG Channel For Updates",
+    ],
+    url: "https://hdhub4u.tv/",
 
-    "tags": ["Movie", "Series"],
+    tags: ["Movie", "Series"],
 
-    "html": ``
+    html: ``,
+  },
+
+  // UNiTYhub
+  {
+    siteName: "UNiTYhub",
+    category: "Movie & Series",
+    siteFeatures: [
+      "In One Word <b>(Satisfy)</b>",
+      "In One Sentence <b>(The Best One)</b>",
+      "No Ads",
+      "Movies",
+      "TV Shows",
+      "Entertainment Platform",
+      "Community-Driven",
+      "All-in-One",
+    ],
+
+    more: [
+      "Built by professionals, for everyone",
+      "Discover movies and TV shows in one place",
+    ],
+
+    url: "https://www.unityhub.buzz/",
+
+    tags: ["Movie", "TV Shows", "Entertainment", "Movies & Series"],
+
+    html: ``,
   },
 
   //4KHDHUB
   {
-    "siteName": "4KHDHub <sub>For Quality Lovers</sub>",
-    "category": "Movie & Series",
+    siteName: "4KHDHub <sub>For Quality Lovers</sub>",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "4K UHD (2160p)",
       "1080p & 720p",
       "BluRay",
@@ -62,10 +96,10 @@ const movieDatabase = [
       "Anime",
       "K-Drama",
       "Direct Download",
-      "HubCloud & HubDrive Mirrors"
+      "HubCloud & HubDrive Mirrors",
     ],
 
-    "more": [
+    more: [
       "The Best Qualities Ever Made.",
       "The Alternative of <b>HDHUB4U</b> for High Resulations",
       "One Ad Per Page",
@@ -75,12 +109,12 @@ const movieDatabase = [
       "Many titles include Dolby Vision, HDR and HEVC encodes.",
       "Hindi dubbed and Dual Audio releases are available.",
       "Content is organized by quality, genre and streaming platform.",
-      "With direct download mirrors such as HubCloud and HubDrive."
+      "With direct download mirrors such as HubCloud and HubDrive.",
     ],
 
-    "url": "https://4khdhub.com",
+    url: "https://4khdhub.com",
 
-    "tags": [
+    tags: [
       "movies",
       "series",
       "anime",
@@ -99,18 +133,18 @@ const movieDatabase = [
       "hindi dubbed",
       "hubcloud",
       "hubdrive",
-      "direct download"
+      "direct download",
     ],
 
-    "html": ``
+    html: ``,
   },
 
   //XDMOVIES
   {
-    "siteName": "XDMovies",
-    "category": "Movie & Series",
+    siteName: "XDMovies",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Movies",
       "TV Series",
       "Web Series",
@@ -127,7 +161,7 @@ const movieDatabase = [
       "Anime",
     ],
 
-    "more": [
+    more: [
       "One Ad Per Page",
       "Download movies and series online in HD, FHD & 4K quality.",
       "Mobile Friendly",
@@ -137,12 +171,12 @@ const movieDatabase = [
       "Bollywood Old Movies Collections",
       "Provides fast links <b>HUBCLOUD</b>",
       "Includes Hollywood, Bollywood and various web series.",
-      "Latest Updates and Frequently updated with new releases."
+      "Latest Updates and Frequently updated with new releases.",
     ],
 
-    "url": "https://xdmovies.com",
+    url: "https://xdmovies.com",
 
-    "tags": [
+    tags: [
       "movies",
       "tv series",
       "web series",
@@ -159,18 +193,18 @@ const movieDatabase = [
       "hindi dubbed",
       "english",
       "online",
-      "hd"
+      "hd",
     ],
 
-    "html": ``
+    html: ``,
   },
 
   //KATMOVIEHD
   {
-    "siteName": "KatWorld/KATMOVIEHD",
-    "category": "Movie & Series",
+    siteName: "KatWorld/KATMOVIEHD",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Hollywood Movies",
       "Bollywood Movies",
       "South Movies",
@@ -194,22 +228,22 @@ const movieDatabase = [
       "WEB-DL",
       "BluRay",
       "HEVC (x265)",
-      "HDR"
+      "HDR",
     ],
 
-    "more": [
+    more: [
       "Provides movies and web series from multiple OTT platforms.",
       "Includes Hollywood, Bollywood and South Indian and Korean content.",
       "Offers Dual Audio and Hindi Dubbed releases.",
       "Available in 480p, 720p, 1080p and 2160p (4K) quality.",
       "Features WEB-DL, BluRay and HEVC (x265) encodes.",
       "Content is organized by language, quality and streaming platform.",
-      "Regularly updated with new movie and series releases."
+      "Regularly updated with new movie and series releases.",
     ],
 
-    "url": "https://katworld.net",
+    url: "https://katworld.net",
 
-    "tags": [
+    tags: [
       "katworld",
       "movies",
       "web series",
@@ -236,10 +270,10 @@ const movieDatabase = [
       "web-dl",
       "bluray",
       "hevc",
-      "hdr"
+      "hdr",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">🎬 KatWorld</h3>
 
@@ -252,15 +286,15 @@ const movieDatabase = [
                 by OTT platform, language and video quality.
             </p>
         </div>
-    `
+    `,
   },
 
   //PrMovies
   {
-    "siteName": "PRMovies <sub>online stream</sub>",
-    "category": "Movie & Series",
+    siteName: "PRMovies <sub>online stream</sub>",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Movies",
       "TV Series",
       "Web Series",
@@ -276,10 +310,10 @@ const movieDatabase = [
       "Anime",
       "Erotic 18+",
       "HD Streaming",
-      "Online Watch"
+      "Online Watch",
     ],
 
-    "more": [
+    more: [
       "Online Streaming",
       "Watch movies and TV shows online for free.",
       "Large collection of Hollywood, Bollywood and South Indian content.",
@@ -287,12 +321,12 @@ const movieDatabase = [
       "Includes Netflix, Amazon Prime, Disney+ and other OTT releases.",
       "Supports Hindi Dubbed and Dual Audio titles.",
       "Content is categorized by genre, country, quality and year.",
-      "Frequently updated with newly released movies and web series."
+      "Frequently updated with newly released movies and web series.",
     ],
 
-    "url": "https://prmovies.mba/",
+    url: "https://prmovies.mba/",
 
-    "tags": [
+    tags: [
       "movies",
       "tv series",
       "web series",
@@ -311,18 +345,18 @@ const movieDatabase = [
       "480p",
       "streaming",
       "watch online",
-      "hd"
+      "hd",
     ],
 
-    "html": ``
+    html: ``,
   },
 
   //WatchoMovies
   {
-    "siteName": "WatchoMovies <sub>Only For Adults</sub>",
-    "category": "Other",
+    siteName: "WatchoMovies <sub>Only For Adults</sub>",
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Watch Online Porn Movies",
       "XXX Scenes",
       "Desi Porn",
@@ -339,37 +373,37 @@ const movieDatabase = [
       "Parody",
       "Japanese",
       "Studios",
-      "Pornstars"
+      "Pornstars",
     ],
 
-    "more": [
+    more: [
       "Online adult video streaming platform.",
       "Browse videos by categories, studios, and performers.",
       "Includes international and Indian adult content.",
       "Too Much Ads Popups",
       "Features studio collections and series.",
       "Supports category-based browsing.",
-      "Regularly updated with new content."
+      "Regularly updated with new content.",
     ],
 
-    "url": "https://watchomovies.delivery/",
+    url: "https://watchomovies.delivery/",
 
-    "tags": ["Empty"],
+    tags: ["Empty"],
 
-    "html": `
+    html: `
       <div style="background:#fdecea;border-left:5px solid #dc3545;color:#721c24;padding:5px;border-radius:6px;font-family:Arial,sans-serif;margin:5px;">
     <strong>⚠️ Content Not Found?</strong><br>
     If the requested title is unavailable on this site, try searching for it on <strong><a href='#prmovies' style='color:red;'>PRMovies</a>'</strong>. It may be available there.
 </div>
-`
+`,
   },
 
   //MODLISTS (MOVIESMOD 2024)
   {
-    "siteName": "Modlist <sub>MOVIESMOD 2024</sub>",
-    "category": "Movie & Series",
+    siteName: "Modlist <sub>MOVIESMOD 2024</sub>",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "MoviesMod Links",
       "Working Domains",
       "Mirror Sites",
@@ -385,10 +419,10 @@ const movieDatabase = [
       "HEVC (x265)",
       "TV Series",
       "OTT Releases",
-      "Anime"
+      "Anime",
     ],
 
-    "more": [
+    more: [
       "Official MoviesMod link directory.",
       "Provides updated working mirror domains.",
       "Redirects users to active MoviesMod websites.",
@@ -396,9 +430,9 @@ const movieDatabase = [
       "Useful for finding the latest active MoviesMod network.",
     ],
 
-    "url": "https://modlist.in",
+    url: "https://modlist.in",
 
-    "tags": [
+    tags: [
       "modlist",
       "moviesmod",
       "mirror",
@@ -415,10 +449,10 @@ const movieDatabase = [
       "1080p",
       "720p",
       "anime",
-      "tv series"
+      "tv series",
     ],
 
-    "html": `
+    html: `
         <div style="margin: 10px;background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">📂 Modlist</h3>
             <p style="margin:0 0 12px;">
@@ -438,15 +472,15 @@ const movieDatabase = [
                 <li>MoviesMod</li>
             </ul>
         </div>
-    `
+    `,
   },
 
   //GAMESLEECH
   {
-    "siteName": `GameLeech <img src="https://cdn-icons-png.flaticon.com/512/232/232434.png" min-width="20px" width="4%" style="filter:invert(1);"/> <img src="https://cdn-icons-png.flaticon.com/512/14/14415.png" min-width="20px"  width="4%" style="filter:invert(1);"/>`,
-    "category": "Other",
+    siteName: `GameLeech <img src="https://cdn-icons-png.flaticon.com/512/232/232434.png" min-width="20px" width="4%" style="filter:invert(1);"/> <img src="https://cdn-icons-png.flaticon.com/512/14/14415.png" min-width="20px"  width="4%" style="filter:invert(1);"/>`,
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "PC Games",
       "Android Games",
       "Game Repacks",
@@ -461,20 +495,20 @@ const movieDatabase = [
       "Online Games",
       "Windows Software",
       "Utilities",
-      "Emulators"
+      "Emulators",
     ],
 
-    "more": [
+    more: [
       "Part of the Modlist / MoviesMod network.",
       "Dedicated to PC and Android gaming content.",
       "Offers game repacks, updates, DLCs and fixes.",
       "Includes Windows software and gaming utilities.",
-      "Frequently updated with new game releases."
+      "Frequently updated with new game releases.",
     ],
 
-    "url": "https://gamesleech.com",
+    url: "https://gamesleech.com",
 
-    "tags": [
+    tags: [
       "games",
       "pc games",
       "android games",
@@ -488,10 +522,10 @@ const movieDatabase = [
       "emulator",
       "gaming",
       "gamesleech",
-      "modlist"
+      "modlist",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #198754;padding:5px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#198754;">🎮 GamesLeech</h3>
             <p style="margin:0 0 12px;">
@@ -501,15 +535,15 @@ const movieDatabase = [
                 Windows software, with frequent content updates.
             </p>
         </div>
-    `
+    `,
   },
 
   //SOFTWARELEECH
   {
-    "siteName": `SoftwareLeech <img src="https://cdn-icons-png.flaticon.com/512/232/232434.png" min-width="20px"  width="4%" style="filter:invert(1);"/> <img src="https://cdn-icons-png.flaticon.com/512/14/14415.png" min-width="20px"  width="4%" style="filter:invert(1);" />`,
-    "category": "Other",
+    siteName: `SoftwareLeech <img src="https://cdn-icons-png.flaticon.com/512/232/232434.png" min-width="20px"  width="4%" style="filter:invert(1);"/> <img src="https://cdn-icons-png.flaticon.com/512/14/14415.png" min-width="20px"  width="4%" style="filter:invert(1);" />`,
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Windows Software",
       "PC Software",
       "Latest Releases",
@@ -529,20 +563,20 @@ const movieDatabase = [
       "Recovery Tools",
       "Virtualization",
       "Developer Tools",
-      "Software Collections"
+      "Software Collections",
     ],
 
-    "more": [
+    more: [
       "Part of the Modlist / MoviesMod network.",
       "Dedicated to Windows software and professional applications.",
       "Regularly updated with the latest software releases.",
       "Includes software collections from popular developers.",
-      "Features creative, productivity, multimedia and utility software."
+      "Features creative, productivity, multimedia and utility software.",
     ],
 
-    "url": "https://softwareleech.com",
+    url: "https://softwareleech.com",
 
-    "tags": [
+    tags: [
       "software",
       "windows",
       "pc software",
@@ -560,10 +594,10 @@ const movieDatabase = [
       "drivers",
       "antivirus",
       "softwareleech",
-      "modlist"
+      "modlist",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">💻 SoftwareLeech</h3>
 
@@ -575,15 +609,15 @@ const movieDatabase = [
                 developers.
             </p>
         </div>
-      `
+      `,
   },
 
   //UHDMOVIES
   {
-    "siteName": "UHDMovies",
-    "category": "Movie & Series",
+    siteName: "UHDMovies",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "2160p HEVC",
       "4K HDR",
       "1080p 10Bit",
@@ -603,22 +637,22 @@ const movieDatabase = [
       "REMUX",
       "HDR",
       "Dolby Vision (DV)",
-      "Multi Audio"
+      "Multi Audio",
     ],
 
-    "more": [
+    more: [
       "Part of the Modlist / MoviesMod network.",
       "Focused on high-quality Hollywood movies and TV series.",
       "Provides 2160p HEVC, 4K HDR and 1080p 10Bit releases.",
       "Latest Update",
       "Includes WEB-DL, BluRay and REMUX encodes.",
       "Features Dual Audio, Multi Audio and English titles.",
-      "Dedicated sections for IMAX, Collections, TV Series and Web Series."
+      "Dedicated sections for IMAX, Collections, TV Series and Web Series.",
     ],
 
-    "url": "https://uhdmovies.casa",
+    url: "https://uhdmovies.casa",
 
-    "tags": [
+    tags: [
       "uhdmovies",
       "4k",
       "2160p",
@@ -638,10 +672,10 @@ const movieDatabase = [
       "remux",
       "web-dl",
       "moviesmod",
-      "modlist"
+      "modlist",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">🎬 UHDMovies</h3>
 
@@ -653,15 +687,15 @@ const movieDatabase = [
                 Series.
             </p>
         </div>
-    `
+    `,
   },
 
   //MOVIESLEECH
   {
-    "siteName": "MoviesLeech <sub>(Bollywood) Indian Content Only</sub>",
-    "category": "Movie & Series",
+    siteName: "MoviesLeech <sub>(Bollywood) Indian Content Only</sub>",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Bollywood",
       "South Movies",
       "Punjabi Movies",
@@ -680,19 +714,19 @@ const movieDatabase = [
       "TV Shows",
     ],
 
-    "more": [
+    more: [
       "Part of the Modlist / MoviesMod network.",
       "Provides Bollywood, South Indian and Punjabi and Marathi and Bengali movies and etc.",
       "Large collection of Indians Web Series and TV Series from popular OTT platforms.",
       "Offers Dual Audio and Hindi Dubbed releases.",
       "Available in 480p, 720p, 1080p and 4K quality.",
       "Includes WEB-DL, BluRay and HEVC (x265) encodes.",
-      "Regularly updated with the latest movie and series releases."
+      "Regularly updated with the latest movie and series releases.",
     ],
 
-    "url": "https://moviesleech.asia",
+    url: "https://moviesleech.asia",
 
-    "tags": [
+    tags: [
       "moviesleech",
       "movies",
       "web series",
@@ -717,10 +751,10 @@ const movieDatabase = [
       "bluray",
       "hevc",
       "moviesmod",
-      "modlist"
+      "modlist",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">🎬 MoviesLeech</h3>
 
@@ -733,16 +767,15 @@ const movieDatabase = [
                 and Hindi Dubbed releases.
             </p>
         </div>
-    `
-
+    `,
   },
 
   //ANIMEFLIX
   {
-    "siteName": "AnimeFlix",
-    "category": "Movie & Series",
+    siteName: "AnimeFlix",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Anime",
       "Anime Movies",
       "Anime Series",
@@ -761,22 +794,22 @@ const movieDatabase = [
       "Ongoing Anime",
       "Anime ZIP",
       "Watch Anime Online",
-      "Download Anime"
+      "Download Anime",
     ],
 
-    "more": [
+    more: [
       "Part of the Modlist / MoviesMod network.",
       "Dedicated to anime downloads and streaming.",
       "Features Netflix Anime and the latest anime releases.",
       "Offers Hindi Dubbed, English Dubbed and English Subbed anime.",
       "Provides anime in 480p, 720p and 1080p quality.",
       "Supports batch (ZIP) downloads for complete series.",
-      "Includes both ongoing and completed anime collections."
+      "Includes both ongoing and completed anime collections.",
     ],
 
-    "url": "https://animeflix.dad",
+    url: "https://animeflix.dad",
 
-    "tags": [
+    tags: [
       "anime",
       "animeflix",
       "anime download",
@@ -795,10 +828,10 @@ const movieDatabase = [
       "completed anime",
       "ongoing anime",
       "modlist",
-      "moviesmod"
+      "moviesmod",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #8e44ad;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#8e44ad;">🍥 AnimeFlix</h3>
 
@@ -811,15 +844,15 @@ const movieDatabase = [
                 complete batch (ZIP) downloads.
             </p>
         </div>
-    `
+    `,
   },
 
   //MOVIESMOD
   {
-    "siteName": "MoviesMod",
-    "category": "Movie & Series",
+    siteName: "MoviesMod",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "English Movies",
       "Dual Audio",
       "Anime",
@@ -843,19 +876,19 @@ const movieDatabase = [
       "Msubs",
     ],
 
-    "more": [
+    more: [
       "Flagship website of the Modlist network.",
       "Specializes in Hollywood movies, Web Series, Anime and K-Dramas.",
       "Provides Dual Audio, Multi Audio and Hindi Dubbed releases.",
       "Available in 480p, 720p, 1080p and 2160p (4K) quality.",
       "Offers WEB-DL, BluRay, REMUX and HEVC (x265) encodes.",
       "Includes English Movies, Hindi Series and 4K Movies sections.",
-      "Official Telegram channel is linked from the homepage."
+      "Official Telegram channel is linked from the homepage.",
     ],
 
-    "url": "https://moviesmod.at",
+    url: "https://moviesmod.at",
 
-    "tags": [
+    tags: [
       "moviesmod",
       "movies",
       "hollywood",
@@ -880,10 +913,10 @@ const movieDatabase = [
       "x265",
       "esubs",
       "msubs",
-      "modlist"
+      "modlist",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">🎬 MoviesMod</h3>
 
@@ -896,15 +929,15 @@ const movieDatabase = [
                 Dual Audio, Multi Audio and Hindi Dubbed titles.
             </p>
         </div>
-    `
+    `,
   },
 
   //JOYATV
   {
-    "siteName": "JOYA9",
-    "category": "Movie & Series",
+    siteName: "JOYA9",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Hollywood Movies",
       "Bollywood Movies",
       "South Movies",
@@ -929,10 +962,10 @@ const movieDatabase = [
       "BluRay",
       "HEVC (x265)",
       "Fast Download",
-      "No Ads"
+      "No Ads",
     ],
 
-    "more": [
+    more: [
       "Spaciality in Bangla Movies and Series.",
       "Free HD movie download platform.",
       "Claims an ad-free downloading experience.",
@@ -943,12 +976,12 @@ const movieDatabase = [
       "But Low quality.",
       "Regularly updated with new movie and series releases.",
       "Official Telegram channel available.",
-      "Download tutorial is available on the official website."
+      "Download tutorial is available on the official website.",
     ],
 
-    "url": "https://joya9.tv/",
+    url: "https://joya9.tv/",
 
-    "tags": [
+    tags: [
       "joya9",
       "movies",
       "movie download",
@@ -972,10 +1005,10 @@ const movieDatabase = [
       "web-dl",
       "bluray",
       "hevc",
-      "no ads"
+      "no ads",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #198754;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#198754;">🎬 JOYA9</h3>
 
@@ -988,15 +1021,15 @@ const movieDatabase = [
                 ad-free download experience and frequent content updates.
             </p>
         </div>
-    `
+    `,
   },
 
   //1337x
   {
-    "siteName": "1337x <sub>Torrent</sub>",
-    "category": "Other",
+    siteName: "1337x <sub>Torrent</sub>",
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Movies",
       "Television",
       "Games",
@@ -1013,10 +1046,10 @@ const movieDatabase = [
       "Trending",
       "Popular Torrents",
       "Library",
-      "Proxy List"
+      "Proxy List",
     ],
 
-    "more": [
+    more: [
       "BitTorrent search engine and torrent index.",
       "Provides torrent files and magnet links.",
       "Features verified uploaders and moderated content.",
@@ -1024,9 +1057,9 @@ const movieDatabase = [
       "Registration is optional for downloading.",
     ],
 
-    "url": "https://1337x.to",
+    url: "https://1337x.to",
 
-    "tags": [
+    tags: [
       "1337x",
       "torrent",
       "bittorrent",
@@ -1043,10 +1076,10 @@ const movieDatabase = [
       "top 100",
       "trending",
       "torrent search",
-      "proxy"
+      "proxy",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #28a745;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#28a745;">🧲 1337x</h3>
 
@@ -1069,15 +1102,15 @@ const movieDatabase = [
                 <li>https://x1337x.cc</li>
             </ul>
         </div>
-    `
+    `,
   },
 
   //RARBG
   {
-    "siteName": "RARBG <sub>Torrent</sub>",
-    "category": "Other",
+    siteName: "RARBG <sub>Torrent</sub>",
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Torrent Search",
       "Magnet Links",
       "Torrent Files",
@@ -1096,21 +1129,20 @@ const movieDatabase = [
       "Recommended Torrents",
       "Verified Uploads",
       "Browse Categories",
-      "Search Filters"
+      "Search Filters",
     ],
 
-    "more": [
+    more: [
       "Torrent index and BitTorrent search engine.",
       "Provides torrent files and magnet links.",
       "Browse torrents by category or search keywords.",
       "Features Top 10 and Recommended Torrents.",
       "Supports Movies, TV Shows, Games, Music, Anime, Apps and XXX categories.",
-
     ],
 
-    "url": "https://www1.rarbg.tw/",
+    url: "https://www1.rarbg.tw/",
 
-    "tags": [
+    tags: [
       "rarbg",
       "torrent",
       "bittorrent",
@@ -1129,10 +1161,10 @@ const movieDatabase = [
       "recommended",
       "verified",
       "proxy",
-      "mirror"
+      "mirror",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #28a745;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#28a745;">🧲 RARBG</h3>
 
@@ -1154,15 +1186,15 @@ const movieDatabase = [
     <li>RARBG Mirror — rarbggo.to</li>
 </ul>
         </div>
-    `
+    `,
   },
 
   //ALL IN ONE (MR STRANGE)
   {
-    "siteName": "All-In-One <sub>Index Server</sub>",
-    "category": "Other",
+    siteName: "All-In-One <sub>Index Server</sub>",
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Google Drive Index",
       "All-In-One Index",
       "Movies",
@@ -1177,21 +1209,21 @@ const movieDatabase = [
       "Directory Listing",
       "Search",
       "File Browser",
-      "Direct Download"
+      "Direct Download",
     ],
 
-    "more": [
+    more: [
       "Cloudflare Workers-powered Google Drive index.",
       "Browse folders and files through a web interface.",
       "Supports directory navigation and search.",
       "Provides direct access to publicly shared files.",
       "Hosts mixed content including movies, TV series, anime, software, games and documents.",
-      "Based on an All-In-One index structure."
+      "Based on an All-In-One index structure.",
     ],
 
-    "url": "https://rapid-fire-allinone.mrstrange.workers.dev/0:/",
+    url: "https://rapid-fire-allinone.mrstrange.workers.dev/0:/",
 
-    "tags": [
+    tags: [
       "rapid fire",
       "all in one",
       "google drive",
@@ -1208,10 +1240,10 @@ const movieDatabase = [
       "apps",
       "books",
       "music",
-      "direct download"
+      "direct download",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #6f42c1;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#6f42c1;">📁 Rapid Fire All-In-One</h3>
 
@@ -1231,15 +1263,15 @@ const movieDatabase = [
     </ul>
 </div>
         </div>
-    `
+    `,
   },
 
   //RELIVIN APP
   {
-    "siteName": "Relivin <sub>Index Server</sub>",
-    "category": "Other",
+    siteName: "Relivin <sub>Index Server</sub>",
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Google Drive Index",
       "Directory Listing",
       "Movies",
@@ -1253,21 +1285,21 @@ const movieDatabase = [
       "Search",
       "Folder Browser",
       "Direct Download",
-      "Responsive UI"
+      "Responsive UI",
     ],
 
-    "more": [
+    more: [
       "Cloud-based file index.",
       "Browse publicly shared folders and files.",
       "Supports directory navigation and search.",
       "Provides direct download links.",
       "Hosts mixed content including movies, TV series, anime, software, games and documents.",
-      "Optimized for desktop and mobile browsers."
+      "Optimized for desktop and mobile browsers.",
     ],
 
-    "url": "https://relivin.vercel.app/",
+    url: "https://relivin.vercel.app/",
 
-    "tags": [
+    tags: [
       "relivin",
       "drive index",
       "google drive",
@@ -1282,10 +1314,10 @@ const movieDatabase = [
       "books",
       "music",
       "direct download",
-      "file browser"
+      "file browser",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #6f42c1;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#6f42c1;">📁 Relivin</h3>
 
@@ -1297,15 +1329,15 @@ const movieDatabase = [
                 TV series, anime, software, games and documents.
             </p>
         </div>
-    `
+    `,
   },
 
   //SUJ
   {
-    "siteName": "SUJ <sub> Only for Adult</sub>",
-    "category": "Other",
+    siteName: "SUJ <sub> Only for Adult</sub>",
+    category: "Other",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Porn Videos",
       "XXX Videos",
       "HD Videos",
@@ -1332,22 +1364,22 @@ const movieDatabase = [
       "Lesbian",
       "MILF",
       "POV",
-      "Teen"
+      "Teen",
     ],
 
-    "more": [
+    more: [
       "Free adult video streaming platform.",
       "No registration required for watching videos.",
       "Browse videos by categories, pornstars and studios.",
       "Supports HD streaming.",
       "Regularly updated with new videos.",
       "Mobile-friendly interface.",
-      "Redirects to PC version on desktop devices."
+      "Redirects to PC version on desktop devices.",
     ],
 
-    "url": "https://suj.mobi",
+    url: "https://suj.mobi",
 
-    "tags": [
+    tags: [
       "suj",
       "porn",
       "xxx",
@@ -1372,10 +1404,10 @@ const movieDatabase = [
       "lesbian",
       "milf",
       "pov",
-      "teen"
+      "teen",
     ],
 
-    "html": `
+    html: `
         <div style="background:#fff3f3;border:1px solid #f5c2c7;border-left:5px solid #dc3545;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#dc3545;">🔞 SUJ</h3>
 
@@ -1388,15 +1420,15 @@ const movieDatabase = [
                 from desktop devices.
             </p>
         </div>
-    `
+    `,
   },
 
   //FILMTCAB
   {
-    "siteName": "FilmyCab",
-    "category": "Movie & Series",
+    siteName: "FilmyCab",
+    category: "Movie & Series",
 
-    "siteFeatures": [
+    siteFeatures: [
       "Bollywood Movies",
       "Hollywood Movies",
       "South Indian Movies",
@@ -1407,10 +1439,10 @@ const movieDatabase = [
       "Prime Video",
       "Hotstar",
       "Fast Updates",
-      "Telegram"
+      "Telegram",
     ],
 
-    "more": [
+    more: [
       "Small Files",
       "Ad Too Much",
       "Provides Bollywood, Hollywood and South Indian movies.",
@@ -1419,12 +1451,12 @@ const movieDatabase = [
       "Supports 480p, 720p, 1080p and 2160p (4K) quality.",
       "Offers BluRay, WEB-DL and HEVC (x265) encodes.",
       "Highlights 4K Dolby Vision and HDR releases.",
-      "Regularly updated with new movies and web series."
+      "Regularly updated with new movies and web series.",
     ],
 
-    "url": "https://filmycab.us/",
+    url: "https://filmycab.us/",
 
-    "tags": [
+    tags: [
       "filmycab",
       "movies",
       "web series",
@@ -1446,82 +1478,82 @@ const movieDatabase = [
       "bluray",
       "web-dl",
       "hevc",
-      "telegram"
+      "telegram",
     ],
 
-    "html": ``
+    html: ``,
   },
 
-    // CloudMovieZ
-    {
-    "siteName": "CloudMovieZ",
-    "category": "Movie & Series",
+  // CloudMovieZ
+  {
+    siteName: "CloudMovieZ",
+    category: "Movie & Series",
 
-    "siteFeatures": [
-        "Hollywood Movies",
-        "Bangla Movies",
-        "South Indian Movies",
-        "Animation Movies",
-        "Marvel",
-        "BluRay REMUX",
-        "4K / 2160p",
-        "Multi Audio Movies",
-        "K-Drama / Movies",
-        "TV Shows",
-        "Web Series",
-        "Hindi Dubbed",
-        "Dual Audio",
-        "WEB-DL",
-        "BluRay",
-        "HEVC (x265)",
-        "HDR",
-        "Dolby Vision",
-        "480p",
-        "720p",
-        "1080p",
-        "2160p (4K)"
+    siteFeatures: [
+      "Hollywood Movies",
+      "Bangla Movies",
+      "South Indian Movies",
+      "Animation Movies",
+      "Marvel",
+      "BluRay REMUX",
+      "4K / 2160p",
+      "Multi Audio Movies",
+      "K-Drama / Movies",
+      "TV Shows",
+      "Web Series",
+      "Hindi Dubbed",
+      "Dual Audio",
+      "WEB-DL",
+      "BluRay",
+      "HEVC (x265)",
+      "HDR",
+      "Dolby Vision",
+      "480p",
+      "720p",
+      "1080p",
+      "2160p (4K)",
     ],
 
-    "more": [
-        "Movie download platform featuring movies and TV content.",
-        "Includes Hollywood, Bollywood, Bangla, South Indian and Animation movies.",
-        "Features dedicated Marvel and 4K / 2160p sections.",
-        "Offers BluRay REMUX and high-quality WEB-DL releases.",
-        "Includes Multi Audio and Hindi Dubbed movies.",
-        "Features K-Drama, Movies, TV Shows and Web Series.",
-        "Supports multiple video qualities including 480p, 720p, 1080p and 2160p.",
-        "CloudMovieZ states that it collects links from third-party hosting services rather than hosting files directly.",
+    more: [
+      "Movie download platform featuring movies and TV content.",
+      "Includes Hollywood, Bollywood, Bangla, South Indian and Animation movies.",
+      "Features dedicated Marvel and 4K / 2160p sections.",
+      "Offers BluRay REMUX and high-quality WEB-DL releases.",
+      "Includes Multi Audio and Hindi Dubbed movies.",
+      "Features K-Drama, Movies, TV Shows and Web Series.",
+      "Supports multiple video qualities including 480p, 720p, 1080p and 2160p.",
+      "CloudMovieZ states that it collects links from third-party hosting services rather than hosting files directly.",
     ],
 
-    "url": "https://cloudmoviez.top/",
+    url: "https://cloudmoviez.top/",
 
-    "tags": [
-        "cloudmoviez",
-        "cmzflix",
-        "movies",
-        "hollywood",
-        "bangla movies",
-        "south indian movies",
-        "animation",
-        "marvel",
-        "bluray",
-        "remux",
-        "4k",
-        "2160p",
-        "multi audio",
-        "dual audio",
-        "hindi dubbed",
-        "k-drama",
-        "tv shows",
-        "web series",
-        "web-dl",
-        "hevc",
-        "x265",
-        "hdr",
-        "dolby vision"
+    tags: [
+      "cloudmoviez",
+      "cmzflix",
+      "movies",
+      "hollywood",
+      "bangla movies",
+      "south indian movies",
+      "animation",
+      "marvel",
+      "bluray",
+      "remux",
+      "4k",
+      "2160p",
+      "multi audio",
+      "dual audio",
+      "hindi dubbed",
+      "k-drama",
+      "tv shows",
+      "web series",
+      "web-dl",
+      "hevc",
+      "x265",
+      "hdr",
+      "dolby vision",
     ],
 
-    "html": `
+    html: `
         <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
             <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">🎬 CloudMovieZ</h3>
 
@@ -1534,8 +1566,6 @@ const movieDatabase = [
                 content.
             </p>
         </div>
-    `
-}
-
-
+    `,
+  },
 ];
