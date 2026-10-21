@@ -50,7 +50,7 @@ const movieDatabase = [
 
   // UNiTYhub
   {
-    siteName: "UNiTYhub",
+    siteName: "UNiTYhub <sub>BEST For Quality Lovers</sub>",
     category: "Movie & Series",
     siteFeatures: [
       "In One Word <b>(Satisfy)</b>",
@@ -76,7 +76,7 @@ const movieDatabase = [
   },
   //TAMIL TV TOONS
   {
-    siteName: "Tamil TV Toons",
+    siteName: "Tamil TV Toons <sub>For Quality Lovers</sub>",
     category: "Movie & Series",
 
     siteFeatures: [
