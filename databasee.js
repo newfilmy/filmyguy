@@ -112,7 +112,7 @@ const movieDatabase = [
       "Includes HEVC (x265), 10Bit and AV1 encodes in selected releases.",
     ],
 
-    url: "https://tamiltvtoons.site",
+    url: "https://tamiltvtoons.sbs/",
 
     tags: [
       "tamiltvtoons",
