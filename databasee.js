@@ -74,7 +74,85 @@ const movieDatabase = [
 
     html: ``,
   },
+  //TAMIL TV TOONS
+  {
+    siteName: "Tamil TV Toons",
+    category: "Movie & Series",
 
+    siteFeatures: [
+      "Movies",
+      "Anime",
+      "Series",
+      "Animated Series",
+      "Tamil Audio",
+      "Telugu Audio",
+      "Hindi Audio",
+      "English Audio",
+      "Japanese Audio",
+      "Malayalam Audio",
+      "Kannada Audio",
+      "Multi Audio",
+      "Multi-Subtitles",
+      "480p",
+      "720p",
+      "1080p",
+      "BluRay",
+      "HDRip",
+      "HEVC (x265)",
+      "10Bit",
+      "AV1",
+    ],
+
+    more: [
+      "Features movies, anime and animated content.",
+      "Offers titles in multiple audio languages.",
+      "Some releases include multi-subtitles.",
+      "Available video qualities include 480p, 720p and 1080p.",
+      "Some releases feature BluRay and HDRip sources.",
+      "Includes HEVC (x265), 10Bit and AV1 encodes in selected releases.",
+    ],
+
+    url: "https://tamiltvtoons.site",
+
+    tags: [
+      "tamiltvtoons",
+      "movies",
+      "anime",
+      "cartoons",
+      "animated series",
+      "tamil",
+      "telugu",
+      "hindi",
+      "english",
+      "japanese",
+      "malayalam",
+      "kannada",
+      "multi audio",
+      "subtitles",
+      "480p",
+      "720p",
+      "1080p",
+      "bluray",
+      "hdrip",
+      "hevc",
+      "x265",
+      "10bit",
+      "av1",
+    ],
+
+    html: `
+      <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
+        <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">📺 Tamil TV Toons</h3>
+
+        <p style="margin:0;">
+          <strong>Tamil TV Toons</strong> features movies, anime and
+          animated content. Selected releases include multiple audio
+          languages, subtitles and video formats such as BluRay, HDRip,
+          HEVC (x265), 10Bit and AV1, with resolutions up to 1080p.
+        </p>
+      </div>
+    `,
+  },
   //4KHDHUB
   {
     siteName: "4KHDHub <sub>For Quality Lovers</sub>",
