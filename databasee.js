@@ -366,7 +366,54 @@ const movieDatabase = [
         </div>
     `,
   },
+  //PLAY4U
+  {
+    siteName: "Play4u",
+    category: "Movie & Series",
 
+    siteFeatures: [
+      "Movies",
+      "HD Movie Streaming",
+      "Multi Audio",
+      "Subtitles",
+      "IMAX Support",
+      "Online Watch",
+    ],
+
+    more: [
+      "A movie streaming platform.",
+      "Features curated movies in HD quality.",
+      "Supports multiple audio options.",
+      "Subtitle support is available.",
+      "IMAX playback is supported on compatible devices.",
+      "Simple movie playback experience.",
+    ],
+
+    url: "https://play4u.org/",
+
+    tags: [
+      "play4u",
+      "movies",
+      "movie streaming",
+      "hd movies",
+      "multi audio",
+      "subtitles",
+      "imax",
+      "online watch",
+    ],
+
+    html: `
+      <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #0d6efd;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
+        <h3 style="margin:0 0 10px;font-size:18px;color:#0d6efd;">🎬 Play4u</h3>
+
+        <p style="margin:0;">
+          <strong>Play4u</strong> is an online movie streaming platform
+          featuring curated HD movies, multiple audio options and
+          subtitles, with IMAX support on compatible devices.
+        </p>
+      </div>
+    `,
+  },
   //PrMovies
   {
     siteName: "PRMovies <sub>online stream</sub>",
