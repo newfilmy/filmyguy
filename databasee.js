@@ -368,7 +368,7 @@ const movieDatabase = [
   },
   //PLAY4U
   {
-    siteName: "Play4u <sub>Online Watching</sub>",
+    siteName: "Play4u <sub>Online Streaming</sub>",
     category: "Movie & Series",
 
     siteFeatures: [
@@ -416,7 +416,7 @@ const movieDatabase = [
   },
   //PrMovies
   {
-    siteName: "PRMovies <sub>online stream</sub>",
+    siteName: "PRMovies <sub>Online Streaming</sub>",
     category: "Movie & Series",
 
     siteFeatures: [
