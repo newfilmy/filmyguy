@@ -511,14 +511,14 @@ const movieDatabase = [
       "Regularly updated with new content.",
     ],
 
-    url: "https://watchomovies.delivery/",
+    url: "https://watchomovies.study/",
 
     tags: ["Empty"],
 
     html: `
       <div style="background:#fdecea;border-left:5px solid #dc3545;color:#721c24;padding:5px;border-radius:6px;font-family:Arial,sans-serif;margin:5px;">
     <strong>⚠️ Content Not Found?</strong><br>
-    If the requested title is unavailable on this site, try searching for it on <strong><a href='#prmovies' style='color:red;'>PRMovies</a>'</strong>. It may be available there.
+    If the requested title is unavailable on this site, try searching for it on <strong><a href='https://prmovies.mba/' style='color:red;'>PRMovies</a>'</strong>. It may be available there.
 </div>
 `,
   },
