@@ -1700,8 +1700,6 @@ const movieDatabase = [
     category: "Movie & Series",
 
     siteFeatures: [
-      "Google Drive Index",
-      "Directory Listing",
       "Movies",
       "TV Series",
       "Anime",
