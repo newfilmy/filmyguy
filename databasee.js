@@ -1693,4 +1693,44 @@ const movieDatabase = [
         </div>
     `,
   },
+
+  //NmCT Studio
+  {
+    siteName: "NmCT Studio",
+    category: "Movie & Series",
+
+    siteFeatures: [
+      "Google Drive Index",
+      "Directory Listing",
+      "Movies",
+      "TV Series",
+      "Anime",
+      "Search",
+      "Direct Download",
+      "Responsive UI",
+    ],
+
+    more: [
+      "Supports directory navigation and search.",
+      "Provides direct download links.",
+      "Hosts mixed content including movies, TV series, anime, software, games and documents.",
+      "Optimized for desktop and mobile browsers.",
+    ],
+
+    url: "https://nmct-studio.vercel.app/",
+
+    tags: [
+      "movies",
+      "tv series",
+      "anime",
+      "direct download",
+    ],
+
+    html: `
+        <div style="background:#eef6ff;border:1px solid #b6d4fe;border-left:5px solid #6f42c1;padding:15px;border-radius:8px;color:#1f2937;font-family:Arial,sans-serif;">
+
+        </div>
+    `,
+  },
+
 ];
